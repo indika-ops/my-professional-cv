@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indika Nuwan | Portfolio</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Theme Styles -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body class="dark-theme">
+    <!-- Background Animation Canvas -->
+    <canvas id="particles"></canvas>
+    
+    <div class="theme-toggle" id="theme-toggle">
+        <i class="ph ph-moon" id="theme-icon"></i>
+    </div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container glass">
+            <a href="#home" class="logo">INDIKA</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="ph ph-list"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header / Hero Section -->
+    <header id="home" class="hero">
+        <div class="container reveal">
+            <div class="hero-content">
+                <p class="greeting">Hello, I'm</p>
+                <h1 class="name">Indika Nuwan</h1>
+                <h2 class="title"><span class="typing-text"></span></h2>
+                <p class="intro">
+                    A motivated NVQ Level 4 Computer Hardware Technician student passionate about networking, cybersecurity, and cloud computing.
+                </p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn btn-primary">Contact Me <i class="ph ph-paper-plane-tilt"></i></a>
+                    <a href="#" class="btn btn-secondary">Download CV <i class="ph ph-download-simple"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container reveal">
+            <h2 class="section-title">About <span>Me</span></h2>
+            <div class="about-content glass">
+                <div class="about-text">
+                    <p>
+                        I am currently studying for my <strong>NVQ Level 4 Computer Hardware Technician</strong> qualification. 
+                        My journey in tech is fueled by a deep passion for networking, hardware troubleshooting, cybersecurity, and cloud computing.
+                    </p>
+                    <p>
+                        I love solving complex problems, understanding how systems communicate, and securing networks. 
+                        I am actively seeking <strong>industrial training opportunities</strong> to apply my academic knowledge in real-world scenarios and grow as an IT professional.
+                    </p>
+                </div>
+                <div class="about-image">
+                    <div class="img-container">
+                        <div class="img-glow"></div>
+                        <img src="profile.jpg" alt="Indika Nuwan" class="profile-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container reveal">
+            <h2 class="section-title">My <span>Skills</span></h2>
+            
+            <div class="skills-wrapper">
+                <div class="skill-category">
+                    <h3><i class="ph ph-wrench"></i> Technical Skills</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card glass hover-glow">
+                            <i class="ph ph-cpu"></i>
+                            <h4>Hardware Troubleshooting</h4>
+                            <div class="progress-bar"><div class="progress" style="width: 85%"></div></div>
+                        </div>
+                        <div class="skill-card glass hover-glow">
+                            <i class="ph ph-network"></i>
+                            <h4>Networking (TCP/IP,IP Addressing)</h4>
+                            <div class="progress-bar"><div class="progress" style="width: 80%"></div></div>
+                        </div>
+                        <div class="skill-card glass hover-glow">
+                            <i class="ph ph-microsoft-word-logo"></i>
+                            <h4>Microsoft Office</h4>
+                            <div class="progress-bar"><div class="progress" style="width: 90%"></div></div>
+                        </div>
+                        <div class="skill-card glass hover-glow">
+                            <i class="ph ph-linux-logo"></i>
+                            <h4>Windows & Linux OS</h4>
+                            <div class="progress-bar"><div class="progress" style="width: 75%"></div></div>
+                        </div>
+                        <div class="skill-card glass hover-glow">
+                            <i class="ph ph-shield-check"></i>
+                            <h4>Basic Cybersecurity</h4>
+                            <div class="progress-bar"><div class="progress" style="width: 70%"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="ph ph-users"></i> Soft Skills</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card glass hover-glow">
+                            <i class="ph ph-handshake"></i>
+                            <h4>Teamwork</h4>
+                        </div>
+                        <div class="skill-card glass hover-glow">
+                            <i class="ph ph-flag-pennant"></i>
+                            <h4>Leadership</h4>
+                        </div>
+                        <div class="skill-card glass hover-glow">
+                            <i class="ph ph-chats-circle"></i>
+                            <h4>Communication</h4>
+                        </div>
+                        <div class="skill-card glass hover-glow">
+                            <i class="ph ph-lightbulb"></i>
+                            <h4>Problem Solving</h4>
+                        </div>
+                        <div class="skill-card glass hover-glow">
+                            <i class="ph ph-clock"></i>
+                            <h4>Time Management</h4>
+                        </div>
+                        <div class="skill-card glass hover-glow">
+                            <i class="ph ph-file-text"></i>
+                            <h4>Documentation</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="languages-section mt-5">
+                <h3><i class="ph ph-translate"></i> Languages</h3>
+                <div class="lang-grid">
+                    <div class="lang-card glass">
+                        <h4>Sinhala</h4>
+                        <span class="badge">Fluent</span>
+                    </div>
+                    <div class="lang-card glass">
+                        <h4>English</h4>
+                        <span class="badge">Intermediate</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education & Extras Section -->
+    <section id="education" class="education">
+        <div class="container reveal">
+            <h2 class="section-title">Education & <span>Experience</span></h2>
+            
+            <div class="timeline-container">
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass hover-glow">
+                            <span class="year">2026 – Ongoing</span>
+                            <h3 class="degree">NVQ Level 4 – Computer Hardware Technician</h3>
+                            <p class="institution">College of Technology, Badulla</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass hover-glow">
+                            <span class="year">2022 – 2024</span>
+                            <h3 class="degree">G.C.E Advanced Level – Physical Science</h3>
+                            <p class="institution">B/Uva Maha Vidyalaya</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass hover-glow">
+                            <span class="year">2016 – 2022</span>
+                            <h3 class="degree">G.C.E Ordinary Level</h3>
+                            <p class="institution">B/Uva Maha Vidyalaya</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="sub-section-title mt-5">Extracurricular Activities</h3>
+            <div class="extras-grid">
+                <div class="extra-card glass hover-glow">
+                    <i class="ph ph-atom"></i>
+                    <h4>Science Club Member</h4>
+                    <p>Active participant in discussions and activities.</p>
+                </div>
+                <div class="extra-card glass hover-glow">
+                    <i class="ph ph-presentation-chart"></i>
+                    <h4>Science Exhibitions</h4>
+                    <p>Participated in school science exhibitions.</p>
+                </div>
+                <div class="extra-card glass hover-glow">
+                    <i class="ph ph-chalkboard-teacher"></i>
+                    <h4>Project Presentations</h4>
+                    <p>Assisted in science project presentations, developing communication skills.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container reveal">
+            <h2 class="section-title">Get In <span>Touch</span></h2>
+            <div class="contact-grid">
+                <div class="contact-card glass hover-glow">
+                    <div class="icon-box"><i class="ph ph-phone"></i></div>
+                    <h3>Call Me</h3>
+                    <p>+94 771822555</p>
+                </div>
+                <div class="contact-card glass hover-glow">
+                    <div class="icon-box"><i class="ph ph-envelope-simple"></i></div>
+                    <h3>Email Me</h3>
+                    <p>indika.nuwan.cv@gmail.com</p>
+                </div>
+                <a href="https://linkedin.com/in/indika-nuwan-618096392" target="_blank" class="contact-card glass hover-glow" style="text-decoration: none;">
+                    <div class="icon-box"><i class="ph ph-linkedin-logo"></i></div>
+                    <h3>LinkedIn</h3>
+                    <p>indika-nuwan-618096392</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container glass footer-content">
+            <p>&copy; 2026 Indika Nuwan | Networking & Hardware Technician</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
